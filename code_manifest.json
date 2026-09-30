@@ -1,0 +1,92 @@
+[
+  {
+    "path": "historical/01_hnscc_analysis_framework_LOCKED_with_NIMRAD.ipynb",
+    "source_notebook": "01 hnscc_analysis_framework_LOCKED_with_NIMRAD.ipynb",
+    "code_sha256": "a8892820eeb01a5ae12a8ca45dd06bdda6f42b28aaf3e8f8112e090a7409f1c9",
+    "code_cells": 32
+  },
+  {
+    "path": "notebooks/02_hnsc_candidate_pool_and_checks.ipynb",
+    "source_notebook": "02 hnsc_candidate_pool_and_checks.ipynb",
+    "code_sha256": "212b875aa82c7d7c0d7b4a76a5574f34a89b33df3acaf0680ac43895af5b5e31",
+    "code_cells": 8
+  },
+  {
+    "path": "notebooks/03_hnsc_pool_freeze_final.ipynb",
+    "source_notebook": "03 hnsc_pool_freeze_final.ipynb",
+    "code_sha256": "44a00440df88e2be9b8ed1d7b5267bdd92c6fe7dd84b174722528d7d53c491e9",
+    "code_cells": 10
+  },
+  {
+    "path": "notebooks/04_HNSC_LASSO_derivation.ipynb",
+    "source_notebook": "04 HNSC_LASSO_derivation.ipynb",
+    "code_sha256": "a40e6b2b30ff29c9348d6915648d263c3c68b04a76c35dbee10b826599884cdb",
+    "code_cells": 11
+  },
+  {
+    "path": "notebooks/05_GSE65858_external_validation.ipynb",
+    "source_notebook": "05 GSE65858_external_validation.ipynb",
+    "code_sha256": "bf8b98b66724523ab04c26de47c79c21bc700031233e1934a4f6af1140a93caa",
+    "code_cells": 10
+  },
+  {
+    "path": "notebooks/06_Eustace_GSE65858_validation.ipynb",
+    "source_notebook": "06 Eustace_GSE65858_validation.ipynb",
+    "code_sha256": "52d3682ca9d6bd584812c2ffca9b38cf176a57283fd1d9ab4e1dc0f5dd7713f7",
+    "code_cells": 9
+  },
+  {
+    "path": "notebooks/09_Lendahl_GSE65858_validation_CORRECTED.ipynb",
+    "source_notebook": "09 Lendahl_GSE65858_validation_CORRECTED.ipynb",
+    "code_sha256": "86666814a661970b25e21af1a45f7b0dfba3f02a3e57a2beff182a21bd4fa589",
+    "code_cells": 8
+  },
+  {
+    "path": "notebooks/10_RSI_GSE65858_validation_CORRECTED.ipynb",
+    "source_notebook": "10 RSI_GSE65858_validation_CORRECTED.ipynb",
+    "code_sha256": "47516e1fb296b33cc4968ad61c65e6757ce942f59a95cda41ce06b22199ee737",
+    "code_cells": 8
+  },
+  {
+    "path": "notebooks/11_CV_correction_per_fold_standardisation.ipynb",
+    "source_notebook": "11 CV_correction_per_fold_standardisation.ipynb",
+    "code_sha256": "74544262f3bd1f09cb754bc44e0d7b3bc3bd539b5e17407d304b5ded3bf91c50",
+    "code_cells": 9
+  },
+  {
+    "path": "notebooks/12_build_combined_scores.ipynb",
+    "source_notebook": "12 build_combined_scores.ipynb",
+    "code_sha256": "938289d7032653573522b2db723e63385f77fcb6578d441188d1e35d1743da9f",
+    "code_cells": 8
+  },
+  {
+    "path": "notebooks/13_GSE65858_clinical_variables_check.ipynb",
+    "source_notebook": "13 GSE65858_clinical_variables_check.ipynb",
+    "code_sha256": "671114564bc26a88ab36a1db6a71f1284eb685f085be5dd8598a28c0e0a2cad1",
+    "code_cells": 7
+  },
+  {
+    "path": "notebooks/22_GSE65858_clinical_adjustment_ROUND2.ipynb",
+    "source_notebook": "22 GSE65858_clinical_adjustment_ROUND2.ipynb",
+    "code_sha256": "ca6dfcd9d72376b45a60968cc5d0ce300f71f0446fa4a0c28026c87c1f283d5c",
+    "code_cells": 11
+  },
+  {
+    "path": "notebooks/25_GSE65858_enhanced_KM_curves_ROUND2.ipynb",
+    "source_notebook": "25 GSE65858_enhanced_KM_curves_ROUND2.ipynb",
+    "code_sha256": "c2c323c52589ca3bc5778a26dce8c4b13f2a42d2ead1005ef4687dc2fc4c6d38",
+    "code_cells": 3
+  },
+  {
+    "path": "notebooks/Cohort_table_ROUND3.ipynb",
+    "source_notebook": "Cohort_table_ROUND3.ipynb",
+    "code_sha256": "290887b191557babf398d96f3332efdb360164d690042dfaae3d2c5d3f81858e",
+    "code_cells": 12
+  },
+  {
+    "path": "notebooks/Gene_selection_stability_ROUND4.ipynb",
+    "source_notebook": "Gene_selection_stability_ROUND4.ipynb",
+    "code_sha256": "93b9564844a930ca729208fb4365cec687adf51ec8592ed2cdedb09ccca30f0d",
+    "code_cells": 9
+  }
+]

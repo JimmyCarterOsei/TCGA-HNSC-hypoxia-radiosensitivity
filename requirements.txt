@@ -1,0 +1,10 @@
+# Versions remain unpinned pending confirmation of the original analysis environment.
+numpy
+pandas
+scipy
+scikit-learn
+scikit-survival
+lifelines
+matplotlib
+openpyxl
+jupyter
