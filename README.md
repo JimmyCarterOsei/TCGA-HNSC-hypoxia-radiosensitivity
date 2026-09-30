@@ -6,7 +6,7 @@ Analysis code for development and external evaluation of hypoxia related prognos
 
 This release contains analysis notebook source code. Saved outputs, execution counts and incidental notebook metadata have been removed. The code cells are unchanged from the supplied notebooks. Code hashes and source filenames are recorded in code_manifest.json.
 
-The data directory contains locked coefficients, frozen candidate mapping, corrected cohort scores, clinical annotations, final adjusted results, cross validation outputs and the Round 4 stability results. Checksums are recorded in data_manifest.json. The large GSE65858.xlsx expression input and GPL10558 annotation file are pending upload. The combined TCGA expression input clinical_rna_fire_combine.csv is absent from the supplied local packages. This is not yet a self contained reproducibility package.
+The data directory contains locked coefficients, frozen candidate mapping, corrected cohort scores, clinical annotations, final adjusted results, cross validation outputs and the Round 4 stability results. Checksums are recorded in data_manifest.json. The GSE65858.xlsx expression workbook and GPL10558 annotation file are available as [release downloads](https://github.com/JimmyCarterOsei/TCGA-HNSC-hypoxia-radiosensitivity/releases/tag/data-inputs-2026-09-30). Download these separately; they are not included in GitHub's source ZIP. The combined TCGA expression input clinical_rna_fire_combine.csv is absent from the supplied local packages. This is not yet a self contained reproducibility package.
 
 ## Analysis map
 

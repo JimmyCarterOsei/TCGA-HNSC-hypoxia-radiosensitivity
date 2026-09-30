@@ -1,0 +1,15 @@
+{
+  "files": [
+    {
+      "name": "GSE65858.xlsx",
+      "size": 68545470,
+      "sha256": "b6935845061fdf12b9cdc5e7671077366e500af8f6a774ebd3d36d9966014490"
+    },
+    {
+      "name": "GPL10558_HumanHT-12_V4_0_R2_15002873_B.txt",
+      "size": 70794953,
+      "sha256": "9cfd8b900848d8f322be70cb5491ff97a3e7e5ca8fa5a62ebc75b2d8245b1eb5"
+    }
+  ],
+  "release": "https://github.com/JimmyCarterOsei/TCGA-HNSC-hypoxia-radiosensitivity/releases/tag/data-inputs-2026-09-30"
+}
