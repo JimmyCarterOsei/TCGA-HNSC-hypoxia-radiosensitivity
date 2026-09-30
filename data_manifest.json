@@ -1,0 +1,127 @@
+[
+  {
+    "path": "data/HNSC_hypoxia_signature_lambda_min.csv",
+    "bytes": 1475,
+    "sha256": "dcf38efbfd0980f37e67c3fff85a2fa9f472cf8f34d8381781c3db90a7b1501c"
+  },
+  {
+    "path": "data/HNSC_hypoxia_signature_lambda_1se.csv",
+    "bytes": 615,
+    "sha256": "ca05f7560e12a2e91748092f433ad17090797251267db857e5ba95ec82ba4c1a"
+  },
+  {
+    "path": "data/FROZEN_candidate_pool.csv",
+    "bytes": 22099,
+    "sha256": "f855aacaacc2c7b8d201496c04ef74282ad7b3b5cdd5b3867e56373ceb599d31"
+  },
+  {
+    "path": "data/full_candidate_pool_final_coverage.csv",
+    "bytes": 26128,
+    "sha256": "0edb0568cba3ff9b06e688dc73152995b3c139a185bed48b1a080b61e61bb8f3"
+  },
+  {
+    "path": "data/HNSC_hypoxia_gene_pool_sources.csv",
+    "bytes": 4955,
+    "sha256": "579ff6dd7bb2953fa88087f52cc4f09fe88a67dd24d840d894102b4b56c02c9a"
+  },
+  {
+    "path": "data/traceable_gene_pool_table.csv",
+    "bytes": 1110,
+    "sha256": "36c5985209955c7e6ac5016b4a3621b43b19223dbe74ccf31c5bf301d641751c"
+  },
+  {
+    "path": "data/All_Signatures_Gene_Reference.csv",
+    "bytes": 9327,
+    "sha256": "e1209bc0255982f5a03f28867973669fd665fcd4d3a2a41abd6782c8c5119bc6"
+  },
+  {
+    "path": "data/VERIFIED_CORRECT_scores.csv",
+    "bytes": 40101,
+    "sha256": "8c12628b827d101a8a1434c85a5a7e28441374a168a46c6f0b6fe79a1dc043bd"
+  },
+  {
+    "path": "data/gse65858_clinical_variables.csv",
+    "bytes": 29341,
+    "sha256": "f1ea33873134a854251cf78e3fcedfaed1b29e1226f4a51b59263aca4b7ef082"
+  },
+  {
+    "path": "data/TCGA_HNSC_all_signatures_patient_scores.csv",
+    "bytes": 62385,
+    "sha256": "4a58fa72a6e0d1ac9481b83bfd1be61c031f0166924c4026f2b21e3f444e8a87"
+  },
+  {
+    "path": "data/GSE65858_validation_summary.csv",
+    "bytes": 367,
+    "sha256": "3111069002af8dd75f3f284a7194b6a2c5e8e8896ce233c7d12bd659932825f5"
+  },
+  {
+    "path": "data/cv_results.csv",
+    "bytes": 6048,
+    "sha256": "0179484fa627c457bfaed053b6b4def019e699bbf20beb8ee5d3901357f1a324"
+  },
+  {
+    "path": "data/round2_adjustment_results.csv",
+    "bytes": 1155,
+    "sha256": "07647336028efb37edb519a8f55ff1564e490a55ca2c295c21df0e25919f4171"
+  },
+  {
+    "path": "data/RSI_corrected_scores.csv",
+    "bytes": 7582,
+    "sha256": "a47a04b96484d694751601a49812f9494fa44e84f9b6dd33cec9fc3fedccb312"
+  },
+  {
+    "path": "data/Lendahl_28genes_scores.csv",
+    "bytes": 8389,
+    "sha256": "6de09c932c646e9047084f7131c11f5b358cfaef01882cadaf2331ad627802ca"
+  },
+  {
+    "path": "data/cv_correction_check/cv_fold_level_c_index_CORRECTED.csv",
+    "bytes": 20386,
+    "sha256": "caedfd193920654cbb0b96c0836192e00d7a69bb2cb2258ccaf0822c844daadb"
+  },
+  {
+    "path": "data/cv_correction_check/HNSC_hypoxia_signature_lambda_min_REVISED.csv",
+    "bytes": 1475,
+    "sha256": "dcf38efbfd0980f37e67c3fff85a2fa9f472cf8f34d8381781c3db90a7b1501c"
+  },
+  {
+    "path": "data/cv_correction_check/cv_results_CORRECTED.csv",
+    "bytes": 6064,
+    "sha256": "947693f7b78b81e3e363fcadbd6fa646827603801a4caea8004fde2a875786c6"
+  },
+  {
+    "path": "data/cv_correction_check/HNSC_hypoxia_signature_lambda_1se_REVISED.csv",
+    "bytes": 615,
+    "sha256": "ca05f7560e12a2e91748092f433ad17090797251267db857e5ba95ec82ba4c1a"
+  },
+  {
+    "path": "data/cv_correction_check/cv_patient_fold_assignment.csv",
+    "bytes": 4011,
+    "sha256": "7648976659fa1c2ca67eba3e349ea4141e38a503ec086c9fcf1da5fd91e79dd4"
+  },
+  {
+    "path": "data/TCGA_patient_level_extract_N514.csv",
+    "bytes": 32597,
+    "sha256": "60b5319438029c29481084ec304706c9ffdd456d39699abb4358bdc5baf8fbde"
+  },
+  {
+    "path": "data/cohort_characteristics_ROUND3.csv",
+    "bytes": 909,
+    "sha256": "f2c3bf657aa7f3781269c4502c99968969ec2698d9257453ead5365119a72cea"
+  },
+  {
+    "path": "data/stability_lambda_min_ROUND4.csv",
+    "bytes": 4694,
+    "sha256": "a98ece9f3fa04833c36f1cf0970318e131d30bbef2fa6d8629a6ef8a1dc352dc"
+  },
+  {
+    "path": "data/stability_lambda_1se_ROUND4.csv",
+    "bytes": 4553,
+    "sha256": "449502fa152588f1c64f1f72500521fe6896facc8c2f9772e901ae40a626a6ba"
+  },
+  {
+    "path": "data/stability_summary_ROUND4.json",
+    "bytes": 237,
+    "sha256": "b88c276cb9e6f7120b111a8ef5de827b02562085bed79272d7cc2fb9b860c652"
+  }
+]

@@ -1,0 +1,130 @@
+Signature,Gene,Weight_or_Coefficient,Weighting_Method
+Our lambda.min (PRIMARY),SLC2A3,0.1452364484036017,LASSO-derived coefficient
+Our lambda.min (PRIMARY),PGK1,0.1310610429752051,LASSO-derived coefficient
+Our lambda.min (PRIMARY),MCTS1,0.1306819912414665,LASSO-derived coefficient
+Our lambda.min (PRIMARY),HK1,0.109524800373964,LASSO-derived coefficient
+Our lambda.min (PRIMARY),S100A4,-0.104958043321486,LASSO-derived coefficient
+Our lambda.min (PRIMARY),PKLR,-0.0966952144177822,LASSO-derived coefficient
+Our lambda.min (PRIMARY),CSGALNACT1,-0.0781988631428746,LASSO-derived coefficient
+Our lambda.min (PRIMARY),KRT18,0.0649416637710278,LASSO-derived coefficient
+Our lambda.min (PRIMARY),HS3ST1,0.0646166120492164,LASSO-derived coefficient
+Our lambda.min (PRIMARY),ABCB1,-0.064539775222585,LASSO-derived coefficient
+Our lambda.min (PRIMARY),SPOCK1,0.060983876042131,LASSO-derived coefficient
+Our lambda.min (PRIMARY),KIF5A,0.0516765407094385,LASSO-derived coefficient
+Our lambda.min (PRIMARY),SRPX,0.0490021175231839,LASSO-derived coefficient
+Our lambda.min (PRIMARY),CYB5A,0.0476955388892332,LASSO-derived coefficient
+Our lambda.min (PRIMARY),PLAU,0.0457191247728376,LASSO-derived coefficient
+Our lambda.min (PRIMARY),ANXA5,0.044503287401952,LASSO-derived coefficient
+Our lambda.min (PRIMARY),SLC6A6,-0.0441508432288808,LASSO-derived coefficient
+Our lambda.min (PRIMARY),CCT6A,0.0383085313178999,LASSO-derived coefficient
+Our lambda.min (PRIMARY),EPO,-0.034276508688768,LASSO-derived coefficient
+Our lambda.min (PRIMARY),PYGM,0.0342181683209625,LASSO-derived coefficient
+Our lambda.min (PRIMARY),SGSM2,-0.0322901318141379,LASSO-derived coefficient
+Our lambda.min (PRIMARY),AMPD3,-0.0249063583690308,LASSO-derived coefficient
+Our lambda.min (PRIMARY),EGF,0.0231926298951571,LASSO-derived coefficient
+Our lambda.min (PRIMARY),PTGS2,-0.0225287741336515,LASSO-derived coefficient
+Our lambda.min (PRIMARY),DDR1,0.0197801898173981,LASSO-derived coefficient
+Our lambda.min (PRIMARY),BTG1,-0.0163767061912812,LASSO-derived coefficient
+Our lambda.min (PRIMARY),CD99,-0.0071519755459105,LASSO-derived coefficient
+Our lambda.min (PRIMARY),DTNA,0.0047199726032973,LASSO-derived coefficient
+Our lambda.min (PRIMARY),CHCHD2,0.0045174835651602,LASSO-derived coefficient
+Our lambda.min (PRIMARY),MPI,0.0019528234974323,LASSO-derived coefficient
+Our lambda.min (PRIMARY),TGM2,0.0007562233286218,LASSO-derived coefficient
+Our lambda.min (PRIMARY),INSIG2,2.186161639009012e-05,LASSO-derived coefficient
+Our lambda.1se (SENSITIVITY),PGK1,0.1180444697919895,LASSO-derived coefficient
+Our lambda.1se (SENSITIVITY),HK1,0.0667634764174852,LASSO-derived coefficient
+Our lambda.1se (SENSITIVITY),ABCB1,-0.0647751800701628,LASSO-derived coefficient
+Our lambda.1se (SENSITIVITY),SPOCK1,0.059418483009155,LASSO-derived coefficient
+Our lambda.1se (SENSITIVITY),MCTS1,0.0496199298880562,LASSO-derived coefficient
+Our lambda.1se (SENSITIVITY),PKLR,-0.0451971882370234,LASSO-derived coefficient
+Our lambda.1se (SENSITIVITY),SLC2A3,0.0436549617781268,LASSO-derived coefficient
+Our lambda.1se (SENSITIVITY),KRT18,0.027995141105754,LASSO-derived coefficient
+Our lambda.1se (SENSITIVITY),PLAU,0.0198652716329187,LASSO-derived coefficient
+Our lambda.1se (SENSITIVITY),SRPX,0.0191699115362677,LASSO-derived coefficient
+Our lambda.1se (SENSITIVITY),S100A4,-0.0162109453843623,LASSO-derived coefficient
+Our lambda.1se (SENSITIVITY),STC2,0.0159915948499156,LASSO-derived coefficient
+Our lambda.1se (SENSITIVITY),SGSM2,-0.0054771730286082,LASSO-derived coefficient
+Toustrup,ADM,,Equal-weighted mean (no published per-gene weights)
+Toustrup,ALDOA,,Equal-weighted mean (no published per-gene weights)
+Toustrup,ANKRD37,,Equal-weighted mean (no published per-gene weights)
+Toustrup,BNIP3,,Equal-weighted mean (no published per-gene weights)
+Toustrup,BNIP3L,,Equal-weighted mean (no published per-gene weights)
+Toustrup,FAM162A,,Equal-weighted mean (no published per-gene weights)
+Toustrup,EGLN3,,Equal-weighted mean (no published per-gene weights)
+Toustrup,KCTD11,,Equal-weighted mean (no published per-gene weights)
+Toustrup,LOX,,Equal-weighted mean (no published per-gene weights)
+Toustrup,NDRG1,,Equal-weighted mean (no published per-gene weights)
+Toustrup,P4HA1,,Equal-weighted mean (no published per-gene weights)
+Toustrup,P4HA2,,Equal-weighted mean (no published per-gene weights)
+Toustrup,PDK1,,Equal-weighted mean (no published per-gene weights)
+Toustrup,PFKFB3,,Equal-weighted mean (no published per-gene weights)
+Toustrup,SLC2A1,,Equal-weighted mean (no published per-gene weights)
+Eustace / NIMRAD,ALDOA,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,ANGPTL4,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,ANLN,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,BNC1,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,MRGBP,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,CA9,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,CDKN3,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,COL4A6,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,DCBLD1,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,ENO1,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,FAM83B,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,FOSL1,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,GNAI1,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,HILPDA,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,KCTD11,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,KRT17,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,LDHA,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,MRPS17,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,P4HA1,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,PGAM1,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,PGK1,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,SDC1,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,SLC16A1,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,SLC2A1,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,TPI1,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,VEGFA,,Panel gene (median of panel z-scores)
+Eustace / NIMRAD,GNB2L1,,"Reference/control gene (subtracted, not panel)"
+Eustace / NIMRAD,B2M,,"Reference/control gene (subtracted, not panel)"
+Eustace / NIMRAD,RPL11,,"Reference/control gene (subtracted, not panel)"
+Lendahl,ADM,,Equal-weighted mean (no published per-gene weights)
+Lendahl,ALDOC,,Equal-weighted mean (no published per-gene weights)
+Lendahl,BNIP3,,Equal-weighted mean (no published per-gene weights)
+Lendahl,BNIP3L,,Equal-weighted mean (no published per-gene weights)
+Lendahl,DDIT4,,Equal-weighted mean (no published per-gene weights)
+Lendahl,ENO2,,Equal-weighted mean (no published per-gene weights)
+Lendahl,ERO1L,,Equal-weighted mean (no published per-gene weights)
+Lendahl,GBE1,,Equal-weighted mean (no published per-gene weights)
+Lendahl,GLRX,,Equal-weighted mean (no published per-gene weights)
+Lendahl,HK2,,Equal-weighted mean (no published per-gene weights)
+Lendahl,HMMR,,Equal-weighted mean (no published per-gene weights)
+Lendahl,INSIG1,,Equal-weighted mean (no published per-gene weights)
+Lendahl,INSIG2,,Equal-weighted mean (no published per-gene weights)
+Lendahl,KDM3A,,Equal-weighted mean (no published per-gene weights)
+Lendahl,MAFF,,Equal-weighted mean (no published per-gene weights)
+Lendahl,MXI1,,Equal-weighted mean (no published per-gene weights)
+Lendahl,MYCBP,,Equal-weighted mean (no published per-gene weights)
+Lendahl,NDRG1,,Equal-weighted mean (no published per-gene weights)
+Lendahl,P4HA1,,Equal-weighted mean (no published per-gene weights)
+Lendahl,PDK1,,Equal-weighted mean (no published per-gene weights)
+Lendahl,PPFIA4,,Equal-weighted mean (no published per-gene weights)
+Lendahl,SLC26A2,,Equal-weighted mean (no published per-gene weights)
+Lendahl,SLC7A1,,Equal-weighted mean (no published per-gene weights)
+Lendahl,SOX4,,Equal-weighted mean (no published per-gene weights)
+Lendahl,ATF7IP,,Equal-weighted mean (no published per-gene weights)
+Lendahl,VEGFA,,Equal-weighted mean (no published per-gene weights)
+Lendahl,WSB1,,Equal-weighted mean (no published per-gene weights)
+Lendahl,ZNF654,,Equal-weighted mean (no published per-gene weights)
+Lendahl,HIG2/HILPDA,EXCLUDED,Genuinely absent from GSE65858 under either symbol
+Lendahl,DHX34,EXCLUDED,Unresolved 'DHX34A (BRCA1)' annotation -- no legitimate HGNC alias found
+RSI,AR,-0.0098009,"Published coefficient (applied to within-patient rank, not z-score)"
+RSI,JUN,0.0128283,"Published coefficient (applied to within-patient rank, not z-score)"
+RSI,STAT1,0.0254552,"Published coefficient (applied to within-patient rank, not z-score)"
+RSI,PRKCB,-0.0017589,"Published coefficient (applied to within-patient rank, not z-score)"
+RSI,RELA,-0.0038171,"Published coefficient (applied to within-patient rank, not z-score)"
+RSI,ABL1,0.1070213,"Published coefficient (applied to within-patient rank, not z-score)"
+RSI,SUMO1,-0.0002509,"Published coefficient (applied to within-patient rank, not z-score)"
+RSI,PAK2,-0.0092431,"Published coefficient (applied to within-patient rank, not z-score)"
+RSI,HDAC1,-0.0204469,"Published coefficient (applied to within-patient rank, not z-score)"
+RSI,IRF1,-0.0441683,"Published coefficient (applied to within-patient rank, not z-score)"

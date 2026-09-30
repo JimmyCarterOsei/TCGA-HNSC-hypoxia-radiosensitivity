@@ -1,0 +1,39 @@
+Gene,Jimmy_Hypoxia_breast,Toustrup_2011,NIMRAD_Eustace_2013,Overlap
+ALDOA,-,Yes (B/W 3.52),Yes,SHARED (Toustrup+NIMRAD)
+KCTD11,-,Yes (B/W 3.54),Yes,SHARED (Toustrup+NIMRAD)
+P4HA1,-,Yes (B/W 8.27),Yes,SHARED (Toustrup+NIMRAD)
+SLC2A1,-,Yes (B/W 9.55),Yes,SHARED (Toustrup+NIMRAD)
+ADM,-,Yes (B/W 14.63),-,Unique
+ANKRD37,-,Yes (B/W 13.46),-,Unique
+ANLN,-,-,Yes,Unique
+BNC1,-,-,Yes,Unique
+BNIP3,-,Yes (B/W 5.32),-,Unique
+BNIP3L,-,Yes (B/W 5.98),-,Unique
+CA9,-,-,Yes,Unique
+CDKN3,-,-,Yes,Unique
+COL4A6,-,-,Yes,Unique
+CP,Yes,-,-,Unique
+DCBLD1,-,-,Yes,Unique
+EGLN3,-,Yes (B/W 4.89),-,Unique
+ENO1,-,-,Yes,Unique
+FAM162A,-,Yes (B/W 6.17),-,Unique
+FAM83B,-,-,Yes,Unique
+FOSL1,-,-,Yes,Unique
+GNAI1,-,-,Yes,Unique
+GPC3,Yes,-,-,Unique
+HILPDA,-,-,Yes,Unique
+LDHA,-,-,Yes,Unique
+LOX,-,Yes (B/W 6.41),-,Unique
+MRGBP,-,-,Yes,Unique
+MRPS17,-,-,Yes,Unique
+NDRG1,-,Yes (B/W 9.81),-,Unique
+P4HA2,-,Yes (B/W 12.88),-,Unique
+PDK1,-,Yes (B/W 4.35),-,Unique
+PFKFB3,-,Yes (B/W 3.58),-,Unique
+PGAM1,-,-,Yes,Unique
+PGK1,-,-,Yes,Unique
+SDC1,-,-,Yes,Unique
+SLC16A1,-,-,Yes,Unique
+STC1,Yes,-,-,Unique
+TPI1,-,-,Yes,Unique
+VEGFA,-,-,Yes,Unique

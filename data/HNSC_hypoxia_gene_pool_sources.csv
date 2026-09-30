@@ -1,0 +1,44 @@
+Gene,Source_List,Signature_Size,Reference,Verification_Status
+ADM,Toustrup 15-gene,15,"Toustrup et al., Cancer Res 2011",Verified vs primary source
+ALDOA,Toustrup 15-gene; NIMRAD/Eustace 26-gene,15; 26,"Toustrup et al. 2011; Eustace et al., Clin Cancer Res 2013",Verified vs primary source (both)
+ANKRD37,Toustrup 15-gene,15,"Toustrup et al., Cancer Res 2011",Verified vs primary source
+BNIP3,Toustrup 15-gene,15,"Toustrup et al., Cancer Res 2011",Verified vs primary source
+BNIP3L,Toustrup 15-gene,15,"Toustrup et al., Cancer Res 2011",Verified vs primary source
+FAM162A,Toustrup 15-gene,15,"Toustrup et al., Cancer Res 2011",Verified vs primary source (originally listed as C3orf28; confirmed current symbol via GeneCards HGNC:17865)
+EGLN3,Toustrup 15-gene,15,"Toustrup et al., Cancer Res 2011",Verified vs primary source
+KCTD11,Toustrup 15-gene; NIMRAD/Eustace 26-gene,15; 26,"Toustrup et al. 2011; Eustace et al. 2013",Verified vs primary source (both)
+LOX,Toustrup 15-gene,15,"Toustrup et al., Cancer Res 2011",Verified vs primary source
+NDRG1,Toustrup 15-gene,15,"Toustrup et al., Cancer Res 2011",Verified vs primary source
+P4HA1,Toustrup 15-gene; NIMRAD/Eustace 26-gene,15; 26,"Toustrup et al. 2011; Eustace et al. 2013",Verified vs primary source (both)
+P4HA2,Toustrup 15-gene,15,"Toustrup et al., Cancer Res 2011",Verified vs primary source
+PDK1,Toustrup 15-gene,15,"Toustrup et al., Cancer Res 2011",Verified vs primary source
+PFKFB3,Toustrup 15-gene,15,"Toustrup et al., Cancer Res 2011",Verified vs primary source
+SLC2A1,Toustrup 15-gene; NIMRAD/Eustace 26-gene,15; 26,"Toustrup et al. 2011; Eustace et al. 2013",Verified vs primary source (both)
+ANGPTL4,NIMRAD/Eustace 26-gene,26,"Eustace et al., Clin Cancer Res 2013",Verified vs primary source
+ANLN,NIMRAD/Eustace 26-gene,26,"Eustace et al., Clin Cancer Res 2013",Verified vs primary source
+BNC1,NIMRAD/Eustace 26-gene,26,"Eustace et al., Clin Cancer Res 2013",Verified vs primary source
+C20orf20,NIMRAD/Eustace 26-gene,26,"Eustace et al., Clin Cancer Res 2013",Verified vs primary source (legacy symbol; modern alias to confirm before use)
+CA9,NIMRAD/Eustace 26-gene,26,"Eustace et al., Clin Cancer Res 2013",Verified vs primary source
+CDKN3,NIMRAD/Eustace 26-gene,26,"Eustace et al., Clin Cancer Res 2013",Verified vs primary source
+COL4A6,NIMRAD/Eustace 26-gene,26,"Eustace et al., Clin Cancer Res 2013",Verified vs primary source
+DCBLD1,NIMRAD/Eustace 26-gene,26,"Eustace et al., Clin Cancer Res 2013",Verified vs primary source
+ENO1,NIMRAD/Eustace 26-gene,26,"Eustace et al., Clin Cancer Res 2013",Verified vs primary source
+FAM83B,NIMRAD/Eustace 26-gene,26,"Eustace et al., Clin Cancer Res 2013",Verified vs primary source
+FOSL1,NIMRAD/Eustace 26-gene,26,"Eustace et al., Clin Cancer Res 2013",Verified vs primary source
+GNAI1,NIMRAD/Eustace 26-gene,26,"Eustace et al., Clin Cancer Res 2013",Verified vs primary source
+HIG2,NIMRAD/Eustace 26-gene,26,"Eustace et al., Clin Cancer Res 2013",Verified vs primary source (also known as HILPDA -- alias to confirm)
+KRT17,NIMRAD/Eustace 26-gene,26,"Eustace et al., Clin Cancer Res 2013",Verified vs primary source
+LDHA,NIMRAD/Eustace 26-gene,26,"Eustace et al., Clin Cancer Res 2013",Verified vs primary source
+PGAM1,NIMRAD/Eustace 26-gene,26,"Eustace et al., Clin Cancer Res 2013",Verified vs primary source
+PGK1,NIMRAD/Eustace 26-gene,26,"Eustace et al., Clin Cancer Res 2013",Verified vs primary source
+SDC1,NIMRAD/Eustace 26-gene,26,"Eustace et al., Clin Cancer Res 2013",Verified vs primary source
+SLC16A1,NIMRAD/Eustace 26-gene,26,"Eustace et al., Clin Cancer Res 2013",Verified vs primary source
+TPI1,NIMRAD/Eustace 26-gene,26,"Eustace et al., Clin Cancer Res 2013",Verified vs primary source
+VEGFA,NIMRAD/Eustace 26-gene,26,"Eustace et al., Clin Cancer Res 2013",Verified vs primary source
+[26th NIMRAD/Eustace gene -- unconfirmed],NIMRAD/Eustace 26-gene,26,"Eustace et al., Clin Cancer Res 2013",NOT YET VERIFIED -- only 25 of 26 genes recovered from the primary article's abbreviations key; full supplementary table needed to confirm the final gene before use
+[HALLMARK_HYPOXIA gene set -- ~200 genes],MSigDB Hallmark,~200,"Liberzon et al., Cell Syst 2015 (same source as breast paper Sec. 2.4.1)",TO PULL PROGRAMMATICALLY -- not manually transcribed, to avoid error
+[MSigDB C2 curated hypoxia pathways],MSigDB C2,varies,"Same source as breast paper Sec. 2.4.1",TO PULL PROGRAMMATICALLY
+[Buffa metagene genes],Buffa,~52,"Buffa et al., Br J Cancer 2010 (same source as breast paper)",TO PULL FROM PRIMARY SOURCE
+[Winter metagene genes],Winter,~99,"Winter et al., Cancer Res 2007 -- originally derived in HNSCC (same source as breast paper)",TO PULL FROM PRIMARY SOURCE
+[Elvidge metagene genes],Elvidge,varies,"Elvidge et al., J Biol Chem 2006 (same source as breast paper)",TO PULL FROM PRIMARY SOURCE
+[Fardin metagene genes],Fardin,varies,"Fardin et al., Mol Cancer 2010 (same source as breast paper)",TO PULL FROM PRIMARY SOURCE

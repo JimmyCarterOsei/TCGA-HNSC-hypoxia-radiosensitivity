@@ -6,7 +6,7 @@ Analysis code for development and external evaluation of hypoxia related prognos
 
 This release contains analysis notebook source code. Saved outputs, execution counts and incidental notebook metadata have been removed. The code cells are unchanged from the supplied notebooks. Code hashes and source filenames are recorded in code_manifest.json.
 
-Processed expression matrices, clinical records, annotation inputs and coefficient CSVs are not included in this code upload. The repository is not yet a self contained reproducibility package. Do not describe those data as publicly available here until they have been added and checked.
+The data directory contains locked coefficients, frozen candidate mapping, corrected cohort scores, clinical annotations, final adjusted results, cross validation outputs and the Round 4 stability results. Checksums are recorded in data_manifest.json. The large GSE65858.xlsx expression input and GPL10558 annotation file are pending upload. The combined TCGA expression input clinical_rna_fire_combine.csv is absent from the supplied local packages. This is not yet a self contained reproducibility package.
 
 ## Analysis map
 
@@ -54,3 +54,11 @@ Several original notebooks suppress warnings globally; their code is retained as
 The cohort table notebook also extracts disease free endpoint information for checking. Overall survival is the analysed endpoint of the reported work.
 
 The signatures concern prognostic associations. Cohort specific standardisation and the absence of established independent clinical value limit individual patient application.
+
+## Data use
+
+The locked coefficient files contain one row per selected gene. Their HR_per_SD field is the exponentiated individual penalised gene coefficient and is not the externally evaluated composite score hazard ratio.
+
+Use VERIFIED_CORRECT_scores.csv for downstream external analyses. The separate patient score tables contain public cohort identifiers. The TCGA extract has 514 rows, of which 389 have both disease free time and status, with 125 missing and 142 events. Disease free outcomes were not analysed for the reported survival results.
+
+The original notebooks use bare filenames. Copy the required files from data/ into the selected notebook's working directory. The data/cv_correction_check directory contains verification outputs; it does not replace the original locked coefficient inputs.

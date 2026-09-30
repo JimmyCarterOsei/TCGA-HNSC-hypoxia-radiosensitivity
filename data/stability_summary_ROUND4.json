@@ -1,0 +1,11 @@
+{
+  "alpha_min": 0.039161227341523885,
+  "alpha_1se": 0.06532486436580959,
+  "n_bootstrap": 200,
+  "n_successful_min": 200,
+  "n_failed_min": 0,
+  "warnings_min": [],
+  "n_successful_1se": 200,
+  "n_failed_1se": 0,
+  "warnings_1se": []
+}

@@ -1,0 +1,13 @@
+Characteristic,TCGA-HNSC (N=514),GSE65858 (N=270),Notes
+N,514,270,-
+"Age, mean (SD)",60.9 (11.8),60.1 (10.3),0 missing in both
+"Sex, Male/Female",381 / 133,223 / 47,0 missing in both
+"Stage, category counts",See Section 6 below,See Section 6 below,"Full breakdown, not summarised here"
+"Tumour site, missing",0,4,TCGA 12-category; GSE 4-category
+"HPV status, missing",405 (78.8%),1 (0.4%),TCGA: p16 IHC; GSE: DNA/RNA (not p16)
+Smoking -- blank (no data),11 (2.1%),0 (0.0%),Distinguished from explicit 'Unknown' below
+Smoking -- explicit '[Unknown]',1 (0.2%),N/A -- not a category in GSE65858,TCGA only
+Smoking -- has a real category,502 (97.7%),270 (100.0%),-
+"Treatment, missing",334 (65.0%),0 (0.0%),TCGA: adjuvant RT indicator; GSE: mono/multi/palliative
+"Median follow-up, reverse KM (months)",34.7,32.9,Corrected label and method -- see Section 4
+Deaths (OS events),217 (42.2%),94 (34.8%),-
