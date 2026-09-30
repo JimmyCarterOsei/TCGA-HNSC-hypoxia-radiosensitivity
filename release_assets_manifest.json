@@ -9,6 +9,23 @@
       "name": "GPL10558_HumanHT-12_V4_0_R2_15002873_B.txt",
       "size": 70794953,
       "sha256": "9cfd8b900848d8f322be70cb5491ff97a3e7e5ca8fa5a62ebc75b2d8245b1eb5"
+    },
+    {
+      "name": "clinical_rna_fire_combine.csv.gz",
+      "size": 23661864,
+      "sha256": "39303c513a0f857a0daae8306723a9cbe4acebfcc567ec6b6dcb8429325f1595",
+      "decompressed": {
+        "name": "clinical_rna_fire_combine.csv",
+        "source_filename": "clinical_rna_fire_combine 1(in).csv",
+        "size": 65232808,
+        "sha256": "a907888970d2ac564da877eb20ebcb1b729af7994f701cf9eed062a4a12bcba6",
+        "source_rows": 517,
+        "primary_tumour_rows": 515,
+        "eligible_patients": 514,
+        "overall_survival_deaths": 217,
+        "eligibility": "Sample ID ends with -01 and Overall Survival (Months) is nonmissing and positive",
+        "event_encoding": "Overall Survival Status starts with 1"
+      }
     }
   ],
   "release": "https://github.com/JimmyCarterOsei/TCGA-HNSC-hypoxia-radiosensitivity/releases/tag/data-inputs-2026-09-30"

@@ -6,7 +6,63 @@ Analysis code for development and external evaluation of hypoxia related prognos
 
 This release contains analysis notebook source code. Saved outputs, execution counts and incidental notebook metadata have been removed. The code cells are unchanged from the supplied notebooks. Code hashes and source filenames are recorded in code_manifest.json.
 
-The data directory contains locked coefficients, frozen candidate mapping, corrected cohort scores, clinical annotations, final adjusted results, cross validation outputs and the Round 4 stability results. Checksums are recorded in data_manifest.json. The GSE65858.xlsx expression workbook and GPL10558 annotation file are available as [release downloads](https://github.com/JimmyCarterOsei/TCGA-HNSC-hypoxia-radiosensitivity/releases/tag/data-inputs-2026-09-30). Download these separately; they are not included in GitHub's source ZIP. The combined TCGA expression input clinical_rna_fire_combine.csv is absent from the supplied local packages. This is not yet a self contained reproducibility package.
+The data directory contains locked coefficients, frozen candidate mapping, corrected cohort scores, clinical annotations, final adjusted results, cross validation outputs and the Round 4 stability results. Checksums are recorded in data_manifest.json.
+
+The combined TCGA expression and clinical input, GSE65858.xlsx expression workbook and GPL10558 annotation are available as [release downloads](https://github.com/JimmyCarterOsei/TCGA-HNSC-hypoxia-radiosensitivity/releases/tag/data-inputs-2026-09-30). Download all three separately; release assets are not included in GitHub's source ZIP. Decompress clinical_rna_fire_combine.csv.gz to clinical_rna_fire_combine.csv before running the notebooks. Download instructions and checksums are provided below.
+
+## Download the large inputs
+
+Download these assets from [data-inputs-2026-09-30](https://github.com/JimmyCarterOsei/TCGA-HNSC-hypoxia-radiosensitivity/releases/tag/data-inputs-2026-09-30):
+
+| Release asset | Use |
+| --- | --- |
+| [clinical_rna_fire_combine.csv.gz](https://github.com/JimmyCarterOsei/TCGA-HNSC-hypoxia-radiosensitivity/releases/download/data-inputs-2026-09-30/clinical_rna_fire_combine.csv.gz) | Combined TCGA expression and clinical input; decompress to `clinical_rna_fire_combine.csv`. |
+| [GSE65858.xlsx](https://github.com/JimmyCarterOsei/TCGA-HNSC-hypoxia-radiosensitivity/releases/download/data-inputs-2026-09-30/GSE65858.xlsx) | Processed external-cohort expression workbook. |
+| [GPL10558_HumanHT-12_V4_0_R2_15002873_B.txt](https://github.com/JimmyCarterOsei/TCGA-HNSC-hypoxia-radiosensitivity/releases/download/data-inputs-2026-09-30/GPL10558_HumanHT-12_V4_0_R2_15002873_B.txt) | Platform annotation used by the supplied notebooks. |
+
+To download all three files from the repository root, run the following in the activated environment. It checks each asset against `release_assets_manifest.json`, extracts the TCGA CSV and checks the decompressed bytes against the original file:
+
+```python
+import gzip
+import hashlib
+import json
+import shutil
+import urllib.request
+from pathlib import Path
+
+inputs = Path("inputs")
+inputs.mkdir(exist_ok=True)
+manifest = json.loads(Path("release_assets_manifest.json").read_text())
+base = manifest["release"].replace("/tag/", "/download/")
+
+def sha256(path):
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+for asset in manifest["files"]:
+    target = inputs / asset["name"]
+    with urllib.request.urlopen(base + "/" + asset["name"]) as response:
+        with target.open("wb") as handle:
+            shutil.copyfileobj(response, handle)
+    assert target.stat().st_size == asset["size"], target.name
+    assert sha256(target) == asset["sha256"], target.name
+    if "decompressed" in asset:
+        expected = asset["decompressed"]
+        csv_path = inputs / expected["name"]
+        with gzip.open(target, "rb") as source, csv_path.open("wb") as handle:
+            shutil.copyfileobj(source, handle)
+        assert csv_path.stat().st_size == expected["size"], csv_path.name
+        assert sha256(csv_path) == expected["sha256"], csv_path.name
+
+print("All release inputs verified.")
+```
+
+The original attached TCGA filename was `clinical_rna_fire_combine 1(in).csv`; the release uses the filename expected by the notebooks. Compression and filename normalisation do not change the CSV bytes. The decompressed file is 65,232,808 bytes with SHA256 `a907888970d2ac564da877eb20ebcb1b729af7994f701cf9eed062a4a12bcba6`.
+
+The TCGA input has **517 source rows**. Retaining primary-tumour samples (`Sample ID` ending in `-01`) gives 515 rows. Requiring nonmissing, positive `Overall Survival (Months)` gives the analysed cohort of **514 patients and 217 deaths**. Deaths are encoded by `Overall Survival Status` beginning with `1`. The published TCGA asset was downloaded and both compressed and decompressed checksums and these cohort counts were verified.
 
 ## Analysis map
 
@@ -26,13 +82,24 @@ The data directory contains locked coefficients, frozen candidate mapping, corre
 
 ## Running the notebooks
 
-Install the packages listed in requirements.txt in an isolated Python environment. Exact package versions are awaiting confirmation, so that file is not a record of the original environment.
+Use **Python 3.12.3**, matching the supplied notebooks. The confirmed package versions are scikit-survival 0.25.0, lifelines 0.30.0, pandas 2.3.3 and scikit-learn 1.7.2. These four packages are pinned in [requirements.txt](requirements.txt), and [.python-version](.python-version) records the Python version. Other dependency versions remain unconfirmed; this is a partial environment specification, not a complete historical lockfile. See [SOFTWARE_VERSIONS.md](SOFTWARE_VERSIONS.md).
 
-The original code reads input files relative to the kernel working directory and writes outputs there. Use a separate working directory for each analysis and copy the required inputs into it. Open the selected notebook from that directory and run cells in order. Preserve the locked coefficient CSVs as inputs to external evaluation; derivation runs write coefficient files and should be run separately.
+With Python 3.12.3 installed, create a clean environment from the repository root:
+
+```bash
+python3.12 -c 'import sys; assert sys.version_info[:3] == (3, 12, 3), sys.version'
+python3.12 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
+On Windows, create the environment with your Python 3.12.3 executable and activate it with `.venv\Scripts\Activate.ps1`. Check the running notebook kernel's Python and package versions using the example in SOFTWARE_VERSIONS.md.
+
+The original code reads input files relative to the kernel working directory and writes outputs there. Use a separate working directory for each analysis and copy the required inputs into it. Copy the selected notebook into that directory, start Jupyter there (`jupyter notebook`), select the environment's Python kernel and run cells in order. Confirm the kernel working directory with `from pathlib import Path; Path.cwd()` before running analyses. Preserve the locked coefficient CSVs as inputs to external evaluation; derivation runs write coefficient files and should be run separately.
 
 The combined score notebook writes GSE65858_all_signatures_patient_scores.csv. Later notebooks read VERIFIED_CORRECT_scores.csv. The latter is a separately verified input from the corrected analysis package; the filename transition is not automated in this release.
 
-Input filenames identified in the code are listed below. Some are intermediate outputs from earlier steps. The TCGA combined input and GSE65858 spreadsheet are study specific processed files, not interchangeable with arbitrary downloads bearing the same accession.
+Input filenames identified in the code are listed below. Some are intermediate outputs from earlier steps. In particular, notebook 02 writes `full_candidate_pool_with_coverage.csv`, which notebook 03 reads; this intermediate is generated rather than supplied in `data/`. For derivation or external evaluation using the locked inputs, start with the supplied final candidate mapping and coefficients as applicable. The TCGA combined input and GSE65858 spreadsheet are study specific processed files, not interchangeable with arbitrary downloads bearing the same accession.
 
 - FROZEN_candidate_pool.csv
 - GPL10558_HumanHT-12_V4_0_R2_15002873_B.txt

@@ -1,10 +1,13 @@
-# Versions remain unpinned pending confirmation of the original analysis environment.
+# Use Python 3.12.3; see .python-version and SOFTWARE_VERSIONS.md.
+# Confirmed package versions supplied by Abdullah.
+pandas==2.3.3
+scikit-learn==1.7.2
+scikit-survival==0.25.0
+lifelines==0.30.0
+
+# Original versions of the following dependencies remain unconfirmed.
 numpy
-pandas
 scipy
-scikit-learn
-scikit-survival
-lifelines
 matplotlib
 openpyxl
 jupyter
